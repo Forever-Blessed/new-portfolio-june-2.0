@@ -111,13 +111,22 @@ height: 100%;
 }
 
 #homepage {
-  background-color: white
+  background-color: white;
 }
 
 .introdiv {
   padding: 1vh 2vw;
   display: flex;
   flex-direction: column;
+}
+
+.introdivhomepage {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  background-color: #daf6ff;
+  align-items: center;
+  justify-content: center;
 }
 
 .introh2 {
