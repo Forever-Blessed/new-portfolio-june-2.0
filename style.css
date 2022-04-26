@@ -159,6 +159,10 @@ height: 100%;
   margin: 1em 7em;
 }
 
+#keyskillstitle {
+  background-color: rgba(174, 232, 252, 0.438);
+}
+
 .aboutmetext {
   margin: 2vw;
   margin-right: 4vw;
@@ -167,29 +171,51 @@ height: 100%;
 .Skillscard {
   display: flex;
   flex-direction: column;
-  height: 20rem;
+  height: 22rem;
   background-color: white;
   min-width: 15em;
   width: auto;
   max-width: 20em;
   border-radius: 1em;
   margin: 0em auto;
-  margin-right: 2.5em;
-  margin-left: 2.5em;
   text-align: center;
   align-items: center;
-  
+  }
+
+#sc1 {
+  background-color: rgb(255, 254, 166);
 }
+
+#sc1:hover {
+ box-shadow : rgba(255, 247, 0, 0.779) 0px 54px 55px, rgba(255, 238, 3, 0.889) 0px -12px 30px, rgba(255, 82, 13, 0.985) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+
+#sc2 {
+  background-color: rgb(166, 255, 245);
+}
+
+#sc2:hover {
+  box-shadow : rgba(22, 224, 255, 0.779) 0px 54px 55px, rgba(44, 248, 255, 0.889) 0px -12px 30px, rgba(29, 240, 255, 0.894) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+ }
+
+#sc3 {
+  background-color: rgb(255, 144, 144);
+}
+
+#sc3:hover {
+  box-shadow : rgba(255, 22, 22, 0.779) 0px 54px 55px, rgba(255, 44, 44, 0.889) 0px -12px 30px, rgba(255, 29, 29, 0.894) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+ }
 
 .Skillcarddeck {
   align-items: center;
   display: flex;
   height: 25em;
-  background-color: lightblue;
+  background-color: rgb(29, 35, 37);
   border-radius: 1em;;
   justify-content: space-between;
   padding: 2.5em 2em;
   max-width: 90%;
+  min-width: 17em;
 
 }
 
@@ -325,7 +351,6 @@ transform: translateX(200px);
   display: flex;
   flex-direction: column;
   height: 70em;
-  background-color: lightblue;
   margin: 1vw auto;
   border-radius: 1em;
   max-width: 50vw;
