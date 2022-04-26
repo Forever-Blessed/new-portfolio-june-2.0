@@ -123,8 +123,8 @@ height: 100%;
 .introdivhomepage {
   display: flex;
   flex-direction: column;
-  height: 20vh;
-  background-color: #daf6ff;
+  height: 30vh;
+  background-color: #daf6ff9d;
   align-items: center;
   justify-content: center;
 }
