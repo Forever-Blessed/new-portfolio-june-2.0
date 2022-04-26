@@ -43,59 +43,64 @@
 
 <div class="cardgamemasterdiv">
 
-  <h1> BlackJack!</h1>
-  <h2> by C.Beswick </h2>
-  <br>
-  <h2> your cards are:</h2>
+<!-- BlackJack!  -->
 
-  <div class = "hand">
-    <div class = "card1">
-      <h4 id = "topnumbercard1"> 01 </h4>
-      <div class = "imgdiv">
-        <img id = "img1" src="hearts.png" alt="  " />
-      </div>
-    </div> 
+<h1 id="h1bj"> BlackJack!</h1>
+<h2 id="h2bj"> by C.Beswick </h2>
+<br>
+<h2 id="h2bj"> You have </h2> 
+<h3 id="chips"></h3>
+<h2 id="h2bj">chips</h2>
+<h2 id="h2bj"> your cards are:</h2>
+<div id="tablediv">
+<!-- <img id = "tableimg" src="table.jpg"> -->
+<div class = "hand">
+  <div class = "card1bj">
+    <h4 id = "topnumbercard1"> 01 </h4>
+    <div class = "imgdiv">
+      <img id = "img1" src="hearts.png" alt="  " />
+    </div>
+  </div> 
 
-    <div class = "card2">
-      <h4 id = "topnumbercard2"> 02 </h4>
-      <div class = "imgdiv">
-        <img id = "img2" src="diamonds.png" alt="  " />
-      </div>
-    </div> 
+  <div class = "card2bj">
+    <h4 id = "topnumbercard2"> 02 </h4>
+    <div class = "imgdiv">
+      <img id = "img2" src="diamonds.png" alt="  " />
+    </div>
+  </div> 
 
-    <div class = "card3" id = "card3">
-      <h4 id = "topnumbercard3"> 03 </h4>
-      <div class = "imgdiv">
-        <img id = "img3" src="hearts.png" alt="  " />
-      </div>
-    </div> 
+  <div class = "card3bj" id = "card3bj">
+    <h4 id = "topnumbercard3"> 03 </h4>
+    <div class = "imgdiv">
+      <img id = "img3" src="hearts.png" alt="  " />
+    </div>
+  </div> 
 
-    <div class = "card4" id = "card4">
-      <h4 id = "topnumbercard4"> 04 </h4>
-      <div class = "imgdiv">
-        <img id = "img4" src="diamonds.png" alt="  " />
-      </div>
-    </div> 
+  <div class = "card4bj" id = "card4bj">
+    <h4 id = "topnumbercard4"> 04 </h4>
+    <div class = "imgdiv">
+      <img id = "img4" src="diamonds.png" alt="  " />
+    </div>
+  </div> 
 
-    <div class = "card5" id = "card5">
-      <h4 id = "topnumbercard5"> 05 </h4>
-      <div class = "imgdiv">
-        <img id = "img5" src="hearts.png" alt="  " />
-      </div>
+  <div class = "card5bj" id = "card5bj">
+    <h4 id = "topnumbercard5"> 05 </h4>
+    <div class = "imgdiv">
+      <img id = "img5" src="hearts.png" alt="  " />
     </div>
   </div>
+</div>
+</div>
 
-  <br>
-<h3> The Value of your cards are: </h3>
+<br>
+<h3 id="h3bj"> The Value of your cards are: </h3>
 <h4 id="showvalue">00</h4>
-<h3> Would you like another card? </h3>
+<h3 id="h3bj"> Would you like another card? </h3>
 <div class="buttonss">
-  <button id = "hit" type="button">HIT</button>
-  <button id = "stick" type="button">STICK</button>
-  <button id = "shufbut" type="button">Reset</button>
+<button id = "hit" type="button">HIT</button>
+<button id = "stick" type="button">STICK</button>
+<button id = "shufbut" type="button">Reset</button>
 </div>
-</div>
-
 
 <script src="cards.js"></script>
 <script src="script.js"></script>

@@ -11,13 +11,26 @@ body {
   max-width: ;
 }
 
-h3 {
+/* blackjack styling */ 
+#tablediv {
+  display:flex;
+  background-image: url("table.jpg");
+  background-size: cover;
+
+
+}
+/*#tableimg {
+  z-index: -5;
+  position : absolute
+}*/
+
+#h3bj {
   color: black;
 }
 
-.card1 {
+.card1bj {
   margin-top: 30vw;
-  margin-left: 19vw;
+  margin-left: 15vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,7 +50,7 @@ h3 {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.card2 {
+.card2bj {
   margin-top: 30vw;
   margin-left: 1.5vw;
   display: flex;
@@ -59,7 +72,7 @@ h3 {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.card3 ,.card4,.card5 {
+.card3bj ,.card4bj,.card5bj {
   margin-top: 30vw;
   margin-left: 1.2vw;
   display: flex;
@@ -81,29 +94,18 @@ h3 {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-#card3 {
+#card3bj {
   display: none;
 }
 
-#card4 {
+#card4bj {
   display: none;
 }
 
-#card5 {
+#card5bj {
   display: none;
 }
 
-
-.card:hover {
-  transform: scale(1.03);
-  box-shadow: rgba(9, 255, 0, 0.25) 0px 54px 55px,
-    rgba(30, 255, 0, 0.12) 0px -12px 30px, rgba(0, 255, 13, 0.12) 0px 4px 6px,
-    rgba(3, 255, 45, 0.17) 0px 12px 13px, rgba(3, 255, 15, 0.788) 0px -3px 5px;
-}
-
-.imgdiv {
-  margin-top: 0vw;
-}
 
 #img1, #img2, #img3, #img4, #img5 {
   width: 7.5vw;
@@ -111,6 +113,7 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+
 
 .topnumbercard1,.topnumbercard2,.topnumbercard3,.topnumbercard4,.topnumbercard5 {
   color: black;
@@ -120,15 +123,12 @@ h3 {
 .hand {
   display: flex;
   flex-direction: row;
-  background-image: url("table.Jpg");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
   height: 60vw;
   max-width: 1400px;
 }
 
-h4 {
+
+#h4bj {
   display: flex;
   font-size: 170%;
   margin: 0vw 10vw;
@@ -163,8 +163,4 @@ button:hover {
 
 #but2:hover {
   box-shadow: rgb(255, 1, 1) 0px 14px 28px, rgb(255, 0, 0) 0px 10px 10px;
-}
-
-h4 {
-  color: black;
 }
