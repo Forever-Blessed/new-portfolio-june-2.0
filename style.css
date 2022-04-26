@@ -155,10 +155,6 @@ height: 100%;
   max-width: 45vw;
 }
 
-.Contactdetails {
-  margin: 1em 7em;
-}
-
 #keyskillstitle {
   background-color: rgba(174, 232, 252, 0.438);
 }
@@ -254,6 +250,10 @@ height: 100%;
 
 .contactheader {
   display: block;
+}
+
+.Contactdetails {
+  margin: 1em 3em;
 }
 
 .container {
