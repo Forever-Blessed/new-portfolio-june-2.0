@@ -256,12 +256,31 @@ a {
   margin-left: 40%;
 }
 
+.CofA {
+  width: 90%;
+  margin: 1vw 5vw;
+}
+
+.certi {
+  text-align: center;
+}
+
+.certitext {
+  text-align: center;
+  margin: 1.5em;
+}
+
+.ambi {
+  text-align: center;
+  margin-top: 1em;
+}
+
 /* This is the contact form stuff */
 
-.contactform {
+.contactForm {
   display: flex;
   margin: 2em 5vw;
-  background-color: gainsboro;
+  background-color: rgb(248, 82, 82);
   border-radius: 1em;
   flex-direction: column;
   align-items: center;
@@ -271,8 +290,14 @@ a {
   display: block;
 }
 
+.emailaddressa {
+  font-size: 2em;
+}
+
 .Contactdetails {
-  margin: 1em 3em;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
 }
 
 #contactpage {
@@ -297,7 +322,8 @@ a {
 }
 
 .badge-base {
-  margin-left: 10vw;
+  justify-self: center;
+  margin-left: 5em;
 }
 
 #contactForm {
