@@ -297,6 +297,81 @@ padding-top: 2em;
   text-align: center;
 }
 
+.projectcard {
+  display: flex;
+  flex-direction: column;
+  height: 22rem;
+  background-color: white;
+  min-width: 15em;
+  width: auto;
+  max-width: 20em;
+  border-radius: 1em;
+  margin: 0em auto;
+  text-align: center;
+  align-items: center;
+}
+
+#keyprojecttitle {
+padding-top: 2em;
+}
+
+#sc1 {
+  background-color: rgb(6, 255, 6);
+}
+
+#sc1:hover {
+  box-shadow: rgba(6, 255, 6, 0.721) 0px 54px 55px, rgb(6, 255, 6) 0px -12px 30px, rgba(255, 82, 13, 0.985) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  ;
+}
+
+#sc2 {
+  background-color: rgb(166, 255, 245);
+}
+
+#sc2:hover {
+  box-shadow: rgba(22, 224, 255, 0.779) 0px 54px 55px, rgba(44, 248, 255, 0.889) 0px -12px 30px, rgba(29, 240, 255, 0.894) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  ;
+}
+
+#sc3 {
+  background-color: rgb(255, 144, 144);
+}
+
+#sc3:hover {
+  box-shadow: rgba(255, 22, 22, 0.779) 0px 54px 55px, rgba(255, 44, 44, 0.889) 0px -12px 30px, rgba(255, 29, 29, 0.894) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  ;
+}
+
+.projectcarddeck {
+  align-items: center;
+  display: flex;
+  height: 25em;
+  background-color: rgb(238, 251, 255);
+  border-radius: 1em;
+  justify-content: space-between;
+  padding: 2.5em 2em;
+  max-width: 100%;
+  min-width: 17em;
+
+}
+
+.projectcardtext {
+  display: block;
+  padding: 1vw;
+  text-align: center;
+}
+
+.projectcardtextp {
+  margin-top: 2vh;
+}
+
+.projecttexth2 {
+  display: flex;
+  margin: 2vh 2vw;
+  margin: 5%;
+  text-align: center;
+}
+
 /* This is the contact form stuff */
 
 .contactForm {
@@ -436,6 +511,19 @@ input[type="submit"]:hover {
     margin: 1vw auto;
     border-radius: 1em;
     max-width: 50vw;
+  }
+
+  .projectcarddeck {
+    display: flex;
+    flex-direction: column;
+    height: 50em;
+    margin: 1vw auto;
+    border-radius: 1em;
+    max-width: 50vw;
+  }
+
+  .projectcard {
+    margin: 1em;
   }
 
   .Skillscard {
